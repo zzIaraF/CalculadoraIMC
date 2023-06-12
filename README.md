@@ -15,7 +15,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
--[visite o projeto online]() :)
+-[visite o projeto online](https://zziaraf.github.io/CalculadoraIMC/) :)
 
 PROJETO PARA A DISIPLINA DE DESENVOLVIMENTO WEB
 
