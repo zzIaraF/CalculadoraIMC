@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#calculadora{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #30A2FF;
+    padding: 50px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+
+
+}
+label{
+    margin: 10px;
+    font-size: 25px;
+}
+input{
+    height: 30px;
+}
+a{
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+}
+
+button{
+    height: 30px;
+    background-color: #30A2FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    color: white;
+
+}
+
+#btnMudaCor, #btncalcular{
+    margin-top: 20px;
+    
+    
+}
+
+hr{
+    border: 2px solid;
+}
+
+#tabela{
+    height: auto;
+    width: auto;
+    padding: 40px 10px;
+    margin: 100px;
+    flex-wrap: wrap;
+    
+}
+#resultado{
+    font-size: 25px;
+    margin: 20px;
+}
+
+
+#resultado hr{
+    border: 1px solid;
+    width: 100%;
+}
+
+
+table{
+    margin: 20px;
+    font-size: 25px;
+    flex-wrap: wrap;
+
+}
+
+tr, td{
+    padding: 10px 50px;
+}
+
+#cabecalho{
+    background-color: rgb(194, 194, 194);
+}
+#baixoPeso{
+    background-color: #30ff5d;
+}
+#normal{
+    background-color: #60ff30;
+}
+#sobrePeso{
+    background-color: #e3ff30;
+}
+#obsidade{
+    background-color: #ff4130;
+
+}
