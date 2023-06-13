@@ -35,21 +35,27 @@ function Calcular(){
 
     let IMCFlot = flotpeso/(flotAltura*2);
     let IMC = IMCFlot.toFixed(2);
+
+    console.log(IMC)
     
     let conteudoDiv = document.querySelector("#resultado");
 
 
     if(IMC < 18.05){
-        conteudoDiv.innerText =" O seu IMC é " + IMC + " Você está Abaixo do Peso";
+        conteudoDiv.innerText =" O seu IMC é " + IMC + " Você está abaixo do peso";
+        console.log("entou aqui abaixo do peso")
 
-    }else if(IMC > 18.05 && IMC < 24.99){
-        conteudoDiv.innerText =" O seu IMC é " + IMC + " Você está com o peso Normal";
+    }else if(IMC >= 18.05 && IMC < 24.99){
+        conteudoDiv.innerText =" O seu IMC é " + IMC + " Você está com o peso normal";
+        console.log("entou aqui peso normal")
 
-    }else if(IMC > 25 && IMC < 29.99){
+    }else if(IMC >= 25 && IMC < 29.99){
         conteudoDiv.innerText =" O seu IMC é " + IMC + " Você está com sobrepeso";
+        console.log("entou aqui sobrepeso")
 
-    }else if (IMC > 30){
+    }else if (IMC >= 30){
         conteudoDiv.innerText =" O seu IMC é " + IMC + " Você está com obesidade";
+        console.log("entou aqui obesidade")
 
     }
 
